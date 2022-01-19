@@ -3,7 +3,8 @@
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "@types/jest": "^27.0.1",
-    "jest": "^27.1.0"
+    "jest": "^27.1.0",
+    "regenerator-runtime": "^0.13.9"
   },
   "scripts": {
     "test": "jest",
