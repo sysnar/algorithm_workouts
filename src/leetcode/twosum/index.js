@@ -1,4 +1,4 @@
-const twoSum = (nums, target) => {
+export const twoSum = (nums, target) => {
   const map = {};
 
   for (let i = 0; i < nums.length; i++) {
