@@ -9,13 +9,6 @@
 // (1) -> false
 // (3) -> false
 // (4) -> true
-function isBadVersion(num) {
-  if (num >= 242) {
-    return true;
-  }
-
-  return false;
-}
 
 export function badVersion(isBadVersion) {
   return function (n) {
@@ -36,5 +29,3 @@ export function badVersion(isBadVersion) {
     return left;
   };
 }
-
-console.log(badVersion(isBadVersion)(11111));
